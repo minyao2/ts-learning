@@ -34,3 +34,5 @@ const store: IStore & ThisType<IState> = {    // IStore & ThisType<IState>  --> 
 }
 
 store.eating.call(store.state)
+
+export {}

@@ -29,3 +29,6 @@ interface ILength {
 function getLength2(arg: ILength) {
   return arg.length
 }
+
+
+export {}
